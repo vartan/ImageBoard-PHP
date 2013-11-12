@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+Options +Indexes
+RewriteEngine On
+RewriteBase /chan/
+RewriteRule ^([ba])$ board.php?board=$1
+RewriteRule ^([ba])/$ board.php?board=$1
+RewriteRule ^([ba])/([0-9]+)$ thread.php?board=$1&thread=$2
+RewriteRule ^([ba])/([0-9]+)/$ thread.php?board=$1&thread=$2
+RewriteRule ^([ba])/([0-9]+)/thumb-([a-zA-Z0-9-_]+)([0-9]+)?(.*)?.jpg$ images/thumb/$2$5
+RewriteRule ^([ba])/([0-9]+)/([a-zA-Z0-9-_]+)([0-9]+)?(.*)$ images/full/$2$5
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) /404.php [L]
+
+
+ 

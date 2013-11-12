@@ -1,0 +1,194 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #4f001e;
+}
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  color: #35464b ;
+  background: #f5f6f7 url(f.png) repeat-x;
+  font-size: 10pt;
+}
+
+img {
+  border: 0 none;
+}
+
+.head {
+  padding: 0;
+  height: 200px;
+  margin: 10px;
+  border-bottom: 1px solid #c4c5c5;
+}
+
+.topic .image {
+  min-height: 200px;
+}
+
+.image {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.image {
+  float: left;
+}
+
+.noimage {
+  float: left;
+  width: 30px;
+}
+
+.thread {
+  clear: both;
+  min-height: 200px;
+  padding: 10px;
+  border-top: 1px solid #c4c5c5;
+  margin: 10px;
+}
+
+.topic img {
+  width: 250px;
+}
+
+.post img {
+  width: 125px;
+}
+
+.post {
+  color: #212c2f;
+}
+
+span.name {
+  font-weight: bold;
+  color: #117743;
+}
+
+span.subject {
+  font-weight: bold;
+  color: #cc1105;
+}
+
+.post {
+  display: inline-block;
+  background: #e8e8e8 url('corner.jpg') no-repeat bottom left;
+  background-position: bottom left;
+  padding: 5px;
+  margin: 2px;
+  border: 0 none;
+  border-radius: 4px 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-bottom: 1px solid #aed4e1;
+  border-left: 1px solid #aed4e1;
+  min-width: 500px;
+}
+
+.topic {
+  padding-top: 20px;
+}
+
+input.delete {
+  margin: 4px;
+}
+
+.posttext {
+  display: inline-block;
+  margin: 10px;
+  max-width: 1000px;
+
+}
+
+.post .postheader {
+  background: #e8e8e8 url('head.jpg') bottom repeat-x;
+}
+
+.imageinfo {
+  margin-left: 22px;
+}
+
+.break {
+  font-size: 0px;
+  height: 1px;
+}
+
+.topic .postheader {
+  display: table-row;
+}
+
+.postheader {
+  margin-bottom: 4px;
+}
+
+.morereplies {
+  display: inline-block;
+  font-style: italic;
+  font: 10pt times new roman italic;
+  margin-left: 20px;
+}
+
+a.reply {
+  text-decoration: none;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background: url(corner.jpg) left no-repeat;
+  border: 1px solid #aed4e1;
+  color: #35464b;
+  padding: 3px 8px 3px 8px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+a.reply:hover {
+  color: black;
+  background: url(corner.jpg) bottom left;
+  border: 1px solid #e8e8e8;
+}
+
+table.reply {
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+table.reply td {
+  text-align: left;
+  background: #fff url('thread.jpg') no-repeat top right;
+  padding: 5px;
+  margin: 2px;
+  border: 0 none;
+  border-radius: 4px 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-bottom: 1px solid #aed4e1;
+  border-left: 1px solid #aed4e1;
+}
+
+span.name a {
+  color: blue;
+}
+
+table.reply input {
+  width: 300px;
+}
+
+table.reply textarea {
+  width: 400px;
+}
+
+table.reply input.submit {
+  width: 75px;
+  height: 25px;
+}
+
+table.reply input.subject {
+  margin-right: 10px;
+  width: 320px;
+}
